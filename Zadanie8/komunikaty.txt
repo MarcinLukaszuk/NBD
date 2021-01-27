@@ -1,0 +1,10 @@
+pobieranie
+wyswietlanie
+{'waga': 70, 'nazwisko': 'L', 'imie': 'Marcin'}
+
+modyfikacja wyswietlanie
+{'wzrost': 178, 'waga': 70, 'nazwisko': 'L', 'imie': 'Marcin'}
+
+usuwanie
+pobranie
+None

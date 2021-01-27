@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsYk1wYxMJQaZjAlMuaxMuRsdrnJlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s22009>; rel="up"
+Last-Modified: Wed, 09 Dec 2020 02:33:16 GMT
+ETag: "4DLV6WdDTh6rp4u350W8kr"
+Date: Wed, 09 Dec 2020 02:34:12 GMT
+Content-Type: application/json
+Content-Length: 17
+
+{"marka":"jakas"}

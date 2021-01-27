@@ -1,0 +1,23 @@
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Subaru", "model": "WRX", "rokprodukcji": 2017, "spalanie": 10}' http://localhost:8098/buckets/s22009/keys/Subaru >wyniki1.txt
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Audi", "model": "Quattro", "rokprodukcji": 1983, "spalanie": 20}' http://localhost:8098/buckets/s22009/keys/Audi >>wyniki1.txt
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "BMW", "model": "e36", "rokprodukcji": 1999, "spalanie": 22}' http://localhost:8098/buckets/s22009/keys/BMW >>wyniki1.txt
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Chevrolet", "Aveo": "Adamski", "rokprodukcji": 2000, "spalanie": 20}' http://localhost:8098/buckets/s22009/keys/Chevrolet >>wyniki1.txt
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Chrysler", "model": "300c", "rokprodukcji": 2000, "spalanie": 20}' http://localhost:8098/buckets/s22009/keys/Chrysler >>wyniki1.txt
+
+curl -i http://localhost:8098/buckets/s22009/keys/Subaru >wyniki2.txt
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Subaru", "model": "WRX", "rokprodukcji": 2017, "spalanie": 10, "dzwon": "tak"}' http://localhost:8098/buckets/s22009/keys/Subaru >wyniki3.txt
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Subaru", "model": "WRX", "rokprodukcji": 2017, "spalanie": 10}' http://localhost:8098/buckets/s22009/keys/Subaru >wyniki4.txt
+
+curl -i -XPUT -H "Content-Type:application/json" -d '{"marka": "Subaru", "model": "BRZ", "rokprodukcji": 2017, "spalanie": 10}' http://localhost:8098/buckets/s22009/keys/Subaru >wyniki5.txt
+
+curl -i -XDELETE http://localhost:8098/buckets/s22009/keys/Subaru >wyniki6.txt
+
+curl -i http://localhost:8098/buckets/s22009/keys/Subaru >wyniki7.txt
+
+curl -i -XPOST -H "Content-Type:application/json" -d '{"marka":"jakas"}' http://localhost:8098/buckets/s22009/keys >wyniki8.txt
+
+curl -i http://localhost:8098/buckets/s22009/keys/YG9NeoopMcGT7ssDHJZbapUwNXb >wyniki9.txt
+
+curl -i -XDELETE http://localhost:8098/buckets/s22009/keys/YG9NeoopMcGT7ssDHJZbapUwNXb >wyniki10.txt

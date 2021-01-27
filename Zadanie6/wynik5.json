@@ -1,0 +1,542 @@
+﻿[
+  {
+    "d": {
+"identity": 50,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ABQ"
+      }
+    },
+    "min(price)": 528.0
+  },
+  {
+    "d": {
+"identity": 67,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "AUS"
+      }
+    },
+    "min(price)": 1182.0
+  },
+  {
+    "d": {
+"identity": 64,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BDL"
+      }
+    },
+    "min(price)": 2401.5
+  },
+  {
+    "d": {
+"identity": 26,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BOS"
+      }
+    },
+    "min(price)": 2025.0
+  },
+  {
+    "d": {
+"identity": 66,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BWI"
+      }
+    },
+    "min(price)": 2034.0
+  },
+  {
+    "d": {
+"identity": 72,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "BZN"
+      }
+    },
+    "min(price)": 1088.25
+  },
+  {
+    "d": {
+"identity": 37,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CMH"
+      }
+    },
+    "min(price)": 1575.0
+  },
+  {
+    "d": {
+"identity": 74,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "CRP"
+      }
+    },
+    "min(price)": 1230.0
+  },
+  {
+    "d": {
+"identity": 27,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DEN"
+      }
+    },
+    "min(price)": 677.25
+  },
+  {
+    "d": {
+"identity": 28,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "DFW"
+      }
+    },
+    "min(price)": 1248.0
+  },
+  {
+    "d": {
+"identity": 11,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "EWR"
+      }
+    },
+    "min(price)": 1905.0
+  },
+  {
+    "d": {
+"identity": 76,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAR"
+      }
+    },
+    "min(price)": 2230.5
+  },
+  {
+    "d": {
+"identity": 51,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FAT"
+      }
+    },
+    "min(price)": 165.75
+  },
+  {
+    "d": {
+"identity": 16,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "FLL"
+      }
+    },
+    "min(price)": 1823.25
+  },
+  {
+    "d": {
+"identity": 78,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "GRR"
+      }
+    },
+    "min(price)": 1899.75
+  },
+  {
+    "d": {
+"identity": 22,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAD"
+      }
+    },
+    "min(price)": 1791.0
+  },
+  {
+    "d": {
+"identity": 12,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "IAH"
+      }
+    },
+    "min(price)": 1070.25
+  },
+  {
+    "d": {
+"identity": 35,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LAS"
+      }
+    },
+    "min(price)": 186.75
+  },
+  {
+    "d": {
+"identity": 41,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "LGA"
+      }
+    },
+    "min(price)": 2173.5
+  },
+  {
+    "d": {
+"identity": 14,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MCO"
+      }
+    },
+    "min(price)": 1737.0
+  },
+  {
+    "d": {
+"identity": 68,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MEM"
+      }
+    },
+    "min(price)": 1358.25
+  },
+  {
+    "d": {
+"identity": 69,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MFE"
+      }
+    },
+    "min(price)": 1320.0
+  },
+  {
+    "d": {
+"identity": 49,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MIA"
+      }
+    },
+    "min(price)": 2725.5
+  },
+  {
+    "d": {
+"identity": 31,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSN"
+      }
+    },
+    "min(price)": 1878.0
+  },
+  {
+    "d": {
+"identity": 71,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "MSY"
+      }
+    },
+    "min(price)": 2447.25
+  },
+  {
+    "d": {
+"identity": 73,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "OKC"
+      }
+    },
+    "min(price)": 1065.75
+  },
+  {
+    "d": {
+"identity": 70,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "OMA"
+      }
+    },
+    "min(price)": 2118.0
+  },
+  {
+    "d": {
+"identity": 17,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORD"
+      }
+    },
+    "min(price)": 1791.75
+  },
+  {
+    "d": {
+"identity": 65,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ORF"
+      }
+    },
+    "min(price)": 2004.75
+  },
+  {
+    "d": {
+"identity": 48,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PBI"
+      }
+    },
+    "min(price)": 2776.5
+  },
+  {
+    "d": {
+"identity": 20,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PDX"
+      }
+    },
+    "min(price)": 2785.5
+  },
+  {
+    "d": {
+"identity": 39,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PHX"
+      }
+    },
+    "min(price)": 1153.5
+  },
+  {
+    "d": {
+"identity": 61,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PIT"
+      }
+    },
+    "min(price)": 2115.0
+  },
+  {
+    "d": {
+"identity": 62,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "PSP"
+      }
+    },
+    "min(price)": 2685.0
+  },
+  {
+    "d": {
+"identity": 79,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "RNO"
+      }
+    },
+    "min(price)": 2506.5
+  },
+  {
+    "d": {
+"identity": 42,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "ROC"
+      }
+    },
+    "min(price)": 2204.25
+  },
+  {
+    "d": {
+"identity": 63,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "RSW"
+      }
+    },
+    "min(price)": 2667.0
+  },
+  {
+    "d": {
+"identity": 10,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SEA"
+      }
+    },
+    "min(price)": 1478.25
+  },
+  {
+    "d": {
+"identity": 21,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SFO"
+      }
+    },
+    "min(price)": 2354.25
+  },
+  {
+    "d": {
+"identity": 77,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SGF"
+      }
+    },
+    "min(price)": 2138.25
+  },
+  {
+    "d": {
+"identity": 38,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SJC"
+      }
+    },
+    "min(price)": 1420.5
+  },
+  {
+    "d": {
+"identity": 23,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "SMF"
+      }
+    },
+    "min(price)": 294.75
+  },
+  {
+    "d": {
+"identity": 60,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TPA"
+      }
+    },
+    "min(price)": 2428.5
+  },
+  {
+    "d": {
+"identity": 75,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUL"
+      }
+    },
+    "min(price)": 1407.0
+  },
+  {
+    "d": {
+"identity": 52,
+"labels": [
+        "Airport"
+      ],
+"properties": {
+"name": "TUS"
+      }
+    },
+    "min(price)": 354.0
+  }
+]

@@ -1,0 +1,12 @@
+HTTP/1.1 200 OK
+X-Riak-Vclock: a85hYGBgzGDKBVI8ypz/fsakpzMzMJQaZjAlMuaxMrRucrnJlwUA
+Vary: Accept-Encoding
+Server: MochiWeb/1.1 WebMachine/1.10.8 (that head fake, tho)
+Link: </buckets/s22009>; rel="up"
+Last-Modified: Wed, 09 Dec 2020 02:29:25 GMT
+ETag: "44GxSJWxf0fW0433isq63r"
+Date: Wed, 09 Dec 2020 02:30:33 GMT
+Content-Type: application/json
+Content-Length: 73
+
+{"marka": "Subaru", "model": "WRX", "rokprodukcji": 2017, "spalanie": 10}

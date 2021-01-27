@@ -1,0 +1,51 @@
+1.
+MATCH (n:Movie) RETURN n
+
+2.
+MATCH(n:Person {name: "Hugo Weaving"})-[:ACTED_IN]-> (m:Movie) RETURN m
+
+3. 
+MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:DIRECTED]-(d) RETURN d
+
+4.
+MATCH (n:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(a:Person) RETURN a
+
+5.
+MATCH (a:Person)-[:ACTED_IN]->(movie:Movie {title: "The Matrix"}) ,(a)-[:ACTED_IN]->(m:Movie) RETURN m
+
+6.
+MATCH (p:Person)-[:ACTED_IN]->(m:Movie) WITH p, COUNT(m:Movie) AS moviesCount WHERE moviesCount>1 RETURN p,moviesCount
+
+7.
+MATCH (w:Person)-[:WROTE]->(m:Movie)<-[:DIRECTED]-(d:Person) WHERE w.name=d.name RETURN m,w
+
+8.
+MATCH (p:Person {name: "Hugo Weaving"})-[:ACTED_IN]->(m:Movie)<-[:ACTED_IN]-(keanu:Person {name: "Keanu Reeves"}) RETURN m
+
+9.
+CREATE (m:Movie {title: "Captain America: The First Avenger", released:  "5 August 2011", tagline: "The First Avenger"})
+
+CREATE (p:Person {name: "Joe Johnston" })
+
+CREATE (p:Person {name: "Stephen McFeely"})
+CREATE (p:Person {name: "Christopher Markus"})
+CREATE (p:Person {name: "Joe Simon"})
+CREATE (p:Person {name: "Jack Kirby"})
+ 
+CREATE (p:Person {name: "Chris Evans"})
+CREATE (p:Person {name: "Hayley Atwell"})
+CREATE (p:Person {name: "Sebastian Stan"})
+CREATE (p:Person {name: "Tommy Lee Jones"})
+
+MATCH (p:Person {name: "Joe Johnston" }), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:DIRECTED]->(m)
+
+MATCH (p:Person {name: "Stephen McFeely"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:WROTE]->(m)
+MATCH (p:Person {name: "Christopher Markus"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:WROTE]->(m)
+MATCH (p:Person {name: "Joe Simon"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:WROTE]->(m)
+MATCH (p:Person {name: "Jack Kirby"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:WROTE]->(m)
+ 
+MATCH (p:Person {name: "Chris Evans"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:ACTED_IN]->(m) 
+MATCH (p:Person {name: "Hayley Atwell"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:ACTED_IN]->(m) 
+MATCH (p:Person {name: "Sebastian Stan"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:ACTED_IN]->(m) 
+MATCH (p:Person {name: "Tommy Lee Jones"}), (m:Movie {title: "Captain America: The First Avenger"}) CREATE (p)-[:ACTED_IN]->(m) 
+MATCH (movie:Movie {title: "Captain America: The First Avenger"})<-[]-(person) RETURN movie,person

@@ -1,0 +1,1 @@
+printjson(db.getCollection("people").find().limit(1).toArray())

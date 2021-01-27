@@ -1,0 +1,457 @@
+﻿[
+  {
+    "p": {
+"identity": 4,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Hugo Weaving",
+"born": 1960
+      }
+    },
+    "moviesCount": 5
+  },
+  {
+    "p": {
+"identity": 3,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Laurence Fishburne",
+"born": 1961
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 2,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Carrie-Anne Moss",
+"born": 1967
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 1,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Keanu Reeves",
+"born": 1964
+      }
+    },
+    "moviesCount": 7
+  },
+  {
+    "p": {
+"identity": 12,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Charlize Theron",
+"born": 1975
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 24,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "J.T. Walsh",
+"born": 1943
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 22,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Cuba Gooding Jr.",
+"born": 1968
+      }
+    },
+    "moviesCount": 4
+  },
+  {
+    "p": {
+"identity": 20,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kiefer Sutherland",
+"born": 1966
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 19,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Kevin Bacon",
+"born": 1958
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 17,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jack Nicholson",
+"born": 1937
+      }
+    },
+    "moviesCount": 5
+  },
+  {
+    "p": {
+"identity": 16,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Cruise",
+"born": 1962
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 34,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Meg Ryan",
+"born": 1961
+      }
+    },
+    "moviesCount": 5
+  },
+  {
+    "p": {
+"identity": 40,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Jerry O'Connell",
+"born": 1974
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 42,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bonnie Hunt",
+"born": 1961
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 51,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Marshall Bell",
+"born": 1942
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 53,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Helen Hunt",
+"born": 1963
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 54,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Greg Kinnear",
+"born": 1963
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 60,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Robin Williams",
+"born": 1951
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 58,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Max von Sydow",
+"born": 1929
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 64,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rick Yune",
+"born": 1971
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 65,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "James Cromwell",
+"born": 1940
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 71,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Tom Hanks",
+"born": 1956
+      }
+    },
+    "moviesCount": 12
+  },
+  {
+    "p": {
+"identity": 70,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Steve Zahn",
+"born": 1967
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 77,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rosie O'Donnell",
+"born": 1962
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 80,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Nathan Lane",
+"born": 1956
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 89,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Gene Hackman",
+"born": 1930
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 94,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Zach Grenier",
+"born": 1954
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 118,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Ben Miles",
+"born": 1967
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 125,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Rain",
+"born": 1982
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 131,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Sam Rockwell",
+"born": 1968
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 132,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Gary Sinise",
+"born": 1955
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 138,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Oliver Platt",
+"born": 1960
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 140,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Danny DeVito",
+"born": 1944
+      }
+    },
+    "moviesCount": 2
+  },
+  {
+    "p": {
+"identity": 144,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Bill Paxton",
+"born": 1955
+      }
+    },
+    "moviesCount": 3
+  },
+  {
+    "p": {
+"identity": 146,
+"labels": [
+        "Person"
+      ],
+"properties": {
+"name": "Philip Seymour Hoffman",
+"born": 1967
+      }
+    },
+    "moviesCount": 2
+  }
+]

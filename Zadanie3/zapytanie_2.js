@@ -1,0 +1,1 @@
+printjson(db.getCollection("people").find({"sex":"Female","nationality":"China"}).limit(1).toArray())
